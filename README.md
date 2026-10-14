@@ -136,11 +136,20 @@ requirements.txt
 ```
 ## Screenshots
 
-![List students](screenshots/01-list.png)
-![Create student](screenshots/02-create.png)
-![Update student](screenshots/03-patch.png)
-![Delete student](screenshots/04-delete-404.png)
-![Validation error](screenshots/05-validation.png)
+### 1. List Students
+![List students](Screenshots/01-list.png.png)
+
+### 2. Create Student
+![Create student](Screenshots/02-create.png.png)
+
+### 3. Update Student (Patch)
+![Update student](Screenshots/03-patch.png.png)
+
+### 4. Delete & 404 Error
+![Delete student](Screenshots/04-delete-404.png.png)
+
+### 5. Validation Error
+![Validation error](Screenshots/05-validation.png.png)
 
 ## Security notes
 - Only dummy data is used; no real student information and no secrets are committed (`*.db` and `.env` are git-ignored).
