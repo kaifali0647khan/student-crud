@@ -134,6 +134,13 @@ tests/                pytest tests (CRUD + AI with mocked Ollama)
 seed.py               Dummy data loader
 requirements.txt
 ```
+## Screenshots
+
+![List students](screenshots/01-list.png)
+![Create student](screenshots/02-create.png)
+![Update student](screenshots/03-patch.png)
+![Delete student](screenshots/04-delete-404.png)
+![Validation error](screenshots/05-validation.png)
 
 ## Security notes
 - Only dummy data is used; no real student information and no secrets are committed (`*.db` and `.env` are git-ignored).
